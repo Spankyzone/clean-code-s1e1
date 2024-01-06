@@ -28,7 +28,7 @@ body {
 .main-page__item-input, .main-page__item-label {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .item-input-wrapper {
   display: flex;
@@ -115,7 +115,7 @@ h3,
   width: 226px;
 }
 .item-element__list > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 .button-delete img {
   height: 2em;
@@ -134,12 +134,12 @@ h3,
 
 /* Edit Task */
 .main-page__item-element .main-page__item-input {
-  display: none
+  display: none;
 }
 
 .editMode .main-page__item-input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .editMode .main-page__item-label {
