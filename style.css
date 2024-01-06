@@ -34,14 +34,14 @@ body {
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -114,7 +114,7 @@ h3,
   font-size: 18px;
   width: 226px;
 }
-.item-element__list >    input[type="text"] {
+.item-element__list > input[type="text"] {
   width: 226px
 }
 .button-delete img {
@@ -134,14 +134,14 @@ h3,
 
 /* Edit Task */
 .main-page__item-element .main-page__item-input {
-  display:none
+  display: none
 }
 
 .editMode .main-page__item-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .editMode .main-page__item-label {
-  display:none;
+  display: none;
 }
