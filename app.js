@@ -41,9 +41,9 @@ var createNewTaskElement=function(taskString){
   editInput.className="main-page__item-input";
 
   editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
-  editButton.className="button-edit";
+  editButton.className="button button-edit";
 
-  deleteButton.className="button-delete";
+  deleteButton.className="button button-delete";
   deleteButtonImg.src='./remove.svg';
   deleteButton.appendChild(deleteButtonImg);
 
@@ -54,6 +54,7 @@ var createNewTaskElement=function(taskString){
   listItem.appendChild(editInput);
   listItem.appendChild(editButton);
   listItem.appendChild(deleteButton);
+  listItem.classList.add('item-element__list')
   return listItem;
 }
 
@@ -78,10 +79,7 @@ var addTask=function(){
 var editTask=function(){
   console.log("Edit Task...");
   console.log("Change 'edit' to 'save'");
-
-
   var listItem=this.parentNode;
-
   var editInput=listItem.querySelector('input[type=text]');
   var label=listItem.querySelector("label");
   var editBtn=listItem.querySelector(".button-edit");
