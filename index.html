@@ -12,15 +12,15 @@
     </div>
     <div class="main-page__item item_centred">
       <p>
-        <label for="add-task">Add Item</label>
+        <label id="label-for-add-task" for="add-task">Add Item</label>
         <div class="item-input-wrapper">
           <input id="add-task" class="main-page__item-input" type="text">
           <button class="button button-add">Add</button>
         </div>
       </p>
       <h3>Todo</h3>
-      <ul id="incomplete-tasks">
-        <li>
+      <ul class="main-page__item-element" id="incomplete-tasks">
+        <li class="item-element__list">
           <input type="checkbox">
           <label class="main-page__item-label">Pay Bills</label>
           <input type="text" class="main-page__item-input">
@@ -29,7 +29,7 @@
             <img src="./remove.svg">
           </button>
         </li>
-        <li class="editMode">
+        <li class="item-element__list editMode">
           <input type="checkbox">
           <label class="main-page__item-label">Go Shopping</label>
           <input type="text" value="Go Shopping" class="main-page__item-input">
@@ -40,8 +40,9 @@
         </li>
       </ul>
       <h3>Completed</h3>
-      <ul id="completed-tasks">
-        <li><input type="checkbox" checked>
+      <ul class="main-page__item-element" id="completed-tasks">
+        <li class="item-element__list">
+          <input type="checkbox" checked>
           <label class="main-page__item-label">See the Doctor</label>
           <input type="text" class="main-page__item-input">
           <button class="button button-edit">Edit</button>
